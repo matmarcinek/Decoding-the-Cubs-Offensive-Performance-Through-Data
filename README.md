@@ -71,7 +71,7 @@ This project supports:
 
 ## 🔗 Links  
 📂 [Dataset – Kaggle: Sports Data by chiefzach12](https://www.kaggle.com/datasets/chiefzach12/sports-data)
-[Attendance data](https://www.baseball-reference.com/teams/CHC/attend.shtml)
+📂 [Attendance data](https://www.baseball-reference.com/teams/CHC/attend.shtml)
 
 
 ---
