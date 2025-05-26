@@ -30,7 +30,7 @@ The entire analysis was performed using SQL and is structured to support further
 - 🧮 Counted **total number of unique players** who have ever played for the Cubs, giving historical depth to the roster.
 - 🏟️ Discovered **year-by-year player participation trends**, revealing roster sizes and shifts over time.
 - ⏳ Used advanced SQL techniques like **CTEs and ROW_NUMBER** to calculate streaks and player tenure efficiently.
-- 📅 Created a strong foundation for **time-series visualizations**, enabling interactive dashboards in Power BI or Tableau.
+- 📅 Created a strong foundation for **time-series visualizations**, enabling interactive dashboards in Power BI.
 - 🧠 Gained insights into how player performance and team strategy evolved across different eras.
 
 
