@@ -19,7 +19,7 @@ The entire analysis was performed using SQL and dashboard development in tools l
 │ └── CHC-seasons (years) # column: year 
 │  
 ├── scripts/
-│ └── Chicago Cubs sql.sql # SQL queries and analysis
+│ └── Chicago Cubs sql querries.sql # SQL queries and analysis
 │
 ├── dashboards/
 │ └── CHC Offense Dashboard.pbix # Power BI dashboard </pre>  
