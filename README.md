@@ -64,7 +64,7 @@ For the dashboard portion of this project, the original MLB dataset was cleaned,
 This project supports:
 
 - Historical performance reviews for the Cubs  
-- Fan-focused storytelling with data  
+- Storytelling with data  
 - Foundational analysis for dashboard visualization  
 
 ---
@@ -72,7 +72,6 @@ This project supports:
 ## 🔗 Links  
 📂 [Dataset – Kaggle: Sports Data by chiefzach12](https://www.kaggle.com/datasets/chiefzach12/sports-data)
 
-📊 *Power BI Dashboard (optional link if published)*
 
 ---
 
