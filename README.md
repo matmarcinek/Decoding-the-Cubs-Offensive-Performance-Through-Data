@@ -12,7 +12,7 @@ The entire analysis was performed using SQL and is structured to support further
 <pre> /Decoding-the-Cubs-Offensive-Performance-Through-Data/
 │
 ├── data/
-│ └── 🔗 Dataset: [Kaggle Source](https://www.kaggle.com/datasets/chiefzach12/sports-data?select=MLB)
+│ └── 🔗 Dataset: [hitting_MLB.csv](https://www.kaggle.com/datasets/chiefzach12/sports-data?select=MLB)
 │ └── attendane data (Kaggle source) # Chicago Cubs attendance over the years 
 │ 
 ├── scripts/
