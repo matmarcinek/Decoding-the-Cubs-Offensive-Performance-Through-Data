@@ -3,7 +3,7 @@
 ## 📌 Project Overview  
 This project explores the offensive performance of the **Chicago Cubs** using structured SQL queries on Major League Baseball data. The analysis covers key player statistics, team-wide metrics, and historical trends to highlight standout performances and long-term contributors to the franchise.
 
-The entire analysis was performed using SQL and is structured to support further dashboard development in tools like Power BI or Tableau.
+The entire analysis was performed using SQL and dashboard development in tools like Power BI. 
 
 ---
 
