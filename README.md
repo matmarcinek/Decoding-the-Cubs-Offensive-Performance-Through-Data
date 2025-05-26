@@ -13,7 +13,6 @@ The entire analysis was performed using SQL and dashboard development in tools l
 │
 ├── data/
 │ └── hitting_MLB.csv # MLB dataset
-│ └── attendance data (https://www.baseball-reference.com/teams/CHC/attend.shtml) # Chicago Cubs attendance over the years 
 │ 
 ├── scripts/
 │ └── Chicago Cubs sql.sql # SQL queries and analysis
