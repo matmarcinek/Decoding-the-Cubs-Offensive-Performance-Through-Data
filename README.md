@@ -49,7 +49,7 @@ For the dashboard portion of this project, the original MLB dataset was cleaned,
 
 ### 🔄 Data Preparation:
 - ✅ **CSV Segmentation**: The original dataset was split into four focused CSV files:
-  - `teams.csv` – Team-level details
+  - `team.csv` – Team-level details
   - `players.csv` – Player identifiers and names
   - `seasons.csv` – Seasonal breakdowns
   - `stats.csv` – Offensive statistics (HRs, AVG, OPS, etc.)
