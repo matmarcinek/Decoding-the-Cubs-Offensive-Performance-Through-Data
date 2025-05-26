@@ -49,7 +49,7 @@ For the dashboard portion of this project, the original MLB dataset was cleaned,
   - `players.csv` – Player identifiers and names
   - `seasons.csv` – Seasonal breakdowns
   - `stats.csv` – Offensive statistics (HRs, AVG, OPS, etc.)
-- 🌐 **Web Scraping**: Attendance data across seasons was scraped from a reliable source and added to the model to analyze fan engagement over time.
+- 🌐 **Web Scraping**: Attendance data across seasons was scraped from a [reliable source](https://www.baseball-reference.com/teams/CHC/attend.shtml) and added to the model to analyze fan engagement over time.
 - 🔗 **Data Modeling**: All sources were connected in Power BI through relationships and lookups to create a unified star schema optimized for analysis.
 
 ### 💡 Dashboard Highlights:
