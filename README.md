@@ -13,8 +13,8 @@ The entire analysis was performed using SQL and dashboard development in tools l
 │
 ├── data/
 │ └── CHC-ALL.csv # data on Chicago Cubs only-extracted from the oroginal Kaggle dataset
-│ └── CHC-team.csv # columns: team abbreviation, Team name, league name
-│ └── CHC-players.csv # columns player ID, player full name, player username, position abbreviation, position 
+│ └── CHC-team.csv # columns: team abbreviation, team name, league name
+│ └── CHC-players.csv # columns: player ID, player full name, player username, position abbreviation, position 
 │ └── CHC-stats(except players,teams) # Includes a variety of player stats
 │ └── CHC-seasons (years) # column: year 
 │  
