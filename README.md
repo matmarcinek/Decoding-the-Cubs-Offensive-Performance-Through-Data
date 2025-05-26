@@ -13,7 +13,7 @@ The entire analysis was performed using SQL and dashboard development in tools l
 │
 ├── data/
 │ └── hitting_MLB.csv # MLB dataset
-│ └── attendane data (Kaggle source) # Chicago Cubs attendance over the years 
+│ └── attendance data (https://www.baseball-reference.com/teams/CHC/attend.shtml) # Chicago Cubs attendance over the years 
 │ 
 ├── scripts/
 │ └── Chicago Cubs sql.sql # SQL queries and analysis
@@ -71,6 +71,7 @@ This project supports:
 
 ## 🔗 Links  
 📂 [Dataset – Kaggle: Sports Data by chiefzach12](https://www.kaggle.com/datasets/chiefzach12/sports-data)
+[Attendance data](https://www.baseball-reference.com/teams/CHC/attend.shtml)
 
 
 ---
