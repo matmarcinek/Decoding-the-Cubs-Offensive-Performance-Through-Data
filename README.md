@@ -12,8 +12,12 @@ The entire analysis was performed using SQL and dashboard development in tools l
 <pre> /Decoding-the-Cubs-Offensive-Performance-Through-Data/
 │
 ├── data/
-│ └── hitting_MLB.csv # MLB dataset
-│ 
+│ └── CHC-ALL.csv # data on Chicago Cubs only-extracted from the oroginal Kaggle dataset
+│ └── CHC-team.csv # columns: team abbreviation, Team name, league name
+│ └── CHC-players.csv # columns player ID, player full name, player username, position abbreviation, position 
+│ └── CHC-stats(except players,teams) # Includes a variety of player stats
+│ └── CHC-seasons (years) # column: year 
+│  
 ├── scripts/
 │ └── Chicago Cubs sql.sql # SQL queries and analysis
 │
