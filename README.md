@@ -9,15 +9,30 @@ The entire analysis was performed using SQL and is structured to support further
 
 ## 📁 Folder Structure
 
-<pre> /ChicagoCubs_SQL/ │ ├── data/ │ └── sports-data (Kaggle source) # MLB stats dataset │ ├── scripts/ │ └── Chicago Cubs sql.sql # SQL queries and analysis │ ├── dashboards/ │ └── CHC Offense Dashboard.pbix # Power BI dashboard (optional) </pre>
+/Decoding-the-Cubs-Offensive-Performance-Through-Data/
+│
+├── data/
+│ └── sports-data [(Kaggle source)](https://www.kaggle.com/datasets/chiefzach12/sports-data?select=MLB) # MLB stats dataset
+│ └── attendane data (Kaggle source) # Chicago Cubs attendance over the years 
+│ 
+├── scripts/
+│ └── Chicago Cubs sql.sql # SQL queries and analysis
+│
+├── dashboards/
+│ └── CHC Offense Dashboard.pbix # Power BI dashboard
 
 
 ## 🔍 Key Insights
-- 💣 Identified top Cubs players by **single-season and career home runs**.
-- 🔁 Analyzed **player longevity**, including consecutive-season streaks.
-- 📊 Aggregated **team metrics by year**: AVG, OPS, total HRs, and plate appearances.
-- ⚾ Ranked **seasonal leaders in total bases** using advanced SQL techniques.
-- 🏆 Highlighted trends that could inform both performance evaluation and fan engagement.
+- 💣 Identified top Cubs players by **single-season and career home runs**, showcasing offensive legends.
+- 🔁 Analyzed **player longevity**, including those with the most **consecutive seasons** as Cubs players.
+- 📊 Aggregated **team metrics by season**, including **batting average (AVG)**, **on-base plus slugging (OPS)**, **home runs**, and **plate appearances**.
+- ⚾ Ranked **seasonal leaders in total bases** using window functions to spotlight consistent high performers.
+- 🧮 Counted **total number of unique players** who have ever played for the Cubs, giving historical depth to the roster.
+- 🏟️ Discovered **year-by-year player participation trends**, revealing roster sizes and shifts over time.
+- ⏳ Used advanced SQL techniques like **CTEs and ROW_NUMBER** to calculate streaks and player tenure efficiently.
+- 📅 Created a strong foundation for **time-series visualizations**, enabling interactive dashboards in Power BI or Tableau.
+- 🧠 Gained insights into how player performance and team strategy evolved across different eras.
+
 
 ---
 
@@ -25,7 +40,23 @@ The entire analysis was performed using SQL and is structured to support further
 - **PostgreSQL** – Querying and aggregation
 - **Window Functions** – For ranking and time-based analysis
 - **Common Table Expressions (CTEs)** – For streak and cohort calculations
-- **Power BI (optional)** – For visual storytelling
+  
+- Power BI Analysis Overview  
+For the dashboard portion of this project, the original MLB dataset was cleaned, transformed, and structured into a robust data model using Power BI.
+
+### 🔄 Data Preparation:
+- ✅ **CSV Segmentation**: The original dataset was split into four focused CSV files:
+  - `teams.csv` – Team-level details
+  - `players.csv` – Player identifiers and names
+  - `seasons.csv` – Seasonal breakdowns
+  - `stats.csv` – Offensive statistics (HRs, AVG, OPS, etc.)
+- 🌐 **Web Scraping**: Attendance data across seasons was scraped from a reliable source and added to the model to analyze fan engagement over time.
+- 🔗 **Data Modeling**: All sources were connected in Power BI through relationships and lookups to create a unified star schema optimized for analysis.
+
+### 💡 Dashboard Highlights:
+- **Seasonal Trends**: Year-over-year breakdown of team stats and attendance.
+- **Top Players**: Leaderboards for home runs, total bases, and longevity.
+- **Interactive Filters**: Slicers for players, seasons, and stats for dynamic exploration.
 
 ---
 
@@ -49,5 +80,5 @@ This project supports:
 This project is intended for educational and portfolio purposes only.  
 - The dataset used in this analysis was obtained from **Kaggle** and is assumed to be public.  
 - No personal or sensitive data is used.  
-- If you're the data owner and have concerns, feel free to contact the repository owner via [GitHub](https://github.com).
+- If you're the data owner and have concerns, feel free to contact the repository owner via [GitHub]([https://github.com](https://github.com/matmarcinek)).
 
