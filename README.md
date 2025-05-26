@@ -9,7 +9,7 @@ The entire analysis was performed using SQL and is structured to support further
 
 ## 📁 Folder Structure
 
-/Decoding-the-Cubs-Offensive-Performance-Through-Data/
+<pre> /Decoding-the-Cubs-Offensive-Performance-Through-Data/
 │
 ├── data/
 │ └── sports-data [(Kaggle source)](https://www.kaggle.com/datasets/chiefzach12/sports-data?select=MLB) # MLB stats dataset
@@ -19,7 +19,7 @@ The entire analysis was performed using SQL and is structured to support further
 │ └── Chicago Cubs sql.sql # SQL queries and analysis
 │
 ├── dashboards/
-│ └── CHC Offense Dashboard.pbix # Power BI dashboard
+│ └── CHC Offense Dashboard.pbix # Power BI dashboard </pre>  
 
 
 ## 🔍 Key Insights
